@@ -4,10 +4,28 @@ body {
 }
 
 #top-nav {
-  height: 50px;
   display: flex;
   margin-bottom: 0;
   margin-top: 25px;
+  width: 100%;
+}
+
+#left-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+#left-top {
+  display: flex;
+  float:left;
+}
+
+#right-top {
+  margin-left: auto;
 }
 
 #logo-box {
@@ -21,15 +39,27 @@ body {
   margin: auto;
 }
 
- #store {
-   float: left;
-   margin-left 20px;
-   font-size: 30px;
- }
+#apps-div {
+  float: left;
+  left-margin: 100%;
+}
 
- #about {
-   float: left;
-   margin-left:25px;
-   margin-right: 20px;
-   font-size: 30px;
- }
+#apps-icon {
+  float: right;
+  margin-right: auto;
+  margin-left: 100%;
+  width: 30px;
+  float: right;
+
+}
+
+#userbox {
+  float: right;
+  margin-left: auto;
+}
+
+#user {
+  margin-left: 20px;
+  margin-right: 25px;
+  border-radius: 50%;
+}
