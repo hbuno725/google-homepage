@@ -11,8 +11,7 @@ body {
   height: 50px;
 }
 
-#left-list #right-list {
-  text-align: center;
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,22 +19,44 @@ body {
 
 li {
   display: inline;
+  font-size: 20px;
+  padding: 20px;
 }
 
-#left-list li {
-  font-size: 25px;
+#user-icon {
+  float: right;
+  width: 20px;
+  padding: 20px;
+  border-radius: 5px;
 }
-#left-top {
-  float:left;
+
+#gmail {
+  float: right;
+  padding: 20px;
+}
+
+#images {
+  float: right;
+  padding: 20px;
+}
+
+#apps-icon {
+  float:right;
+  width: 20px;
+  padding: 20px;
 }
 
 #right-top {
   margin-left: auto;
+  margin-right: 25px;
 }
 
 #logo-box {
   margin-top: 100px;
   width: 100%;
+}
+form {
+  text-align: center;
 }
 
 #logo-box img {
