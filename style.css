@@ -11,6 +11,10 @@ body {
   height: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -20,30 +24,33 @@ ul {
 li {
   display: inline;
   font-size: 20px;
-  padding: 20px;
+  margin: 15px;
+}
+
+#about {
 }
 
 #user-icon {
   float: right;
-  width: 20px;
-  padding: 20px;
-  border-radius: 5px;
+  width: 32px;
+  margin: 0 15px;
+  border-radius: 16px;
 }
 
 #gmail {
   float: right;
-  padding: 20px;
+  margin: 0 15px;
 }
 
 #images {
   float: right;
-  padding: 20px;
+  margin: 0 15px;
 }
 
 #apps-icon {
   float:right;
-  width: 20px;
-  padding: 20px;
+  width: 30px;
+  margin: 0 15px;
 }
 
 #right-top {
