@@ -13,6 +13,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #4a4a4f;
 }
 
 ul {
@@ -25,6 +26,12 @@ li {
   display: inline;
   font-size: 20px;
   margin: 15px;
+}
+
+#notification {
+  margin-top: 8px;
+  float: right;
+  width: 20px;
 }
 
 #about {
@@ -70,4 +77,29 @@ form {
   width: 400px;
   display: block;
   margin: auto;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+#footer-list {
+  margin-top: 50px;
+}
+
+#settings {
+  float: right;
+  margin-right: 25px;
+}
+
+#terms {
+  float: right;
+  margin-right: 25px;
+}
+
+#privacy {
+  float:right;
+  margin-right: 25px;
 }
